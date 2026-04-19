@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { ArrowRight, Layout, Zap, User, Sparkles, Image as ImageIcon, Grid, Layers, Smile, MessageCircle, Mail, ChevronRight } from "lucide-react";
 
 export const Navbar = () => (
   <nav className="fixed top-0 left-0 w-full z-50 px-6 md:px-12 py-6 flex justify-between items-center backdrop-blur-md bg-soft-black/80 border-b border-white/5">
@@ -17,7 +16,7 @@ export const Navbar = () => (
       <a href="#pricing" className="hover:text-mint-400 transition-colors">Pricing</a>
     </div>
     <div className="flex items-center gap-6">
-      <a href="#contact" className="hidden sm:block px-6 py-2.5 bg-mint-400 text-soft-black font-bold uppercase tracking-[1px] text-[11px] rounded-[4px] hover:shadow-[0_0_20px_rgba(0,255,157,0.3)] transition-all duration-300">
+      <a href="https://wa.me/919667115543" className="hidden sm:block px-6 py-2.5 bg-mint-400 text-soft-black font-bold uppercase tracking-[1px] text-[11px] rounded-[4px] hover:shadow-[0_0_20px_rgba(0,255,157,0.3)] transition-all duration-300">
         Start Project
       </a>
     </div>

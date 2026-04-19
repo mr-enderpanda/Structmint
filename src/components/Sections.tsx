@@ -119,7 +119,7 @@ const DesignCard = ({ name, description, ideal, icon: Icon }: any) => (
     className="glass-card p-10 rounded-[2.5rem] hover:border-mint-400/20 transition-all duration-700 group flex flex-col min-h-[400px]"
   >
     <div className="mb-10 p-4 w-fit rounded-2xl bg-white/5 text-mint-400 transition-colors">
-      <Cpu className="w-5 h-5 opacity-40" />
+      <Icon className="w-5 h-5 opacity-40" />
     </div>
     <div className="mb-2 text-[10px] font-bold uppercase tracking-[3px] text-mint-400/40">AI Employee</div>
     <h3 className="font-display text-2xl font-medium mb-6 text-white tracking-tight">{name}</h3>
@@ -398,12 +398,10 @@ export const Contact = () => (
           </div>
           
           <div className="space-y-8 pt-12 border-t border-white/5">
-            <a href="tel:+919667115543" className="flex items-center gap-6 group">
-               <div className="text-mint-400/40 group-hover:text-mint-400 transition-colors uppercase font-mono text-sm tracking-widest">+91 9667115543</div>
+            <a href="https://wa.me/919667115543" className="flex items-center gap-6 group">
+               <div className="text-mint-400/40 group-hover:text-mint-400 transition-colors uppercase font-mono text-sm tracking-widest">WhatsApp: +91 9667115543</div>
             </a>
-            <a href="mailto:tenebrisadivi@gmail.com" className="flex items-center gap-6 group">
-               <div className="text-mint-400/40 group-hover:text-mint-400 transition-colors uppercase font-mono text-sm tracking-widest">tenebrisadivi@gmail.com</div>
-            </a>
+            <p className="text-white/20 text-xs uppercase tracking-widest">Preferred contact method</p>
           </div>
         </div>
       </div>
@@ -459,8 +457,8 @@ export const Footer = () => (
         <div>
           <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-white mb-10">Contact</h4>
           <ul className="space-y-6 text-[11px] font-bold uppercase tracking-widest text-dim">
+            <li><a href="https://wa.me/919667115543" className="hover:text-mint-400 transition-colors">WhatsApp</a></li>
             <li>+91 9667115543</li>
-            <li>tenebrisadivi@gmail.com</li>
             <li>New Delhi, IN</li>
           </ul>
         </div>
