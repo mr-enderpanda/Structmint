@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-mint-50: #f7fee7;
+  --color-mint-100: #ecfccb;
+  --color-mint-200: #d9f99d;
+  --color-mint-300: #bef264;
+  --color-mint-400: #a3e635;
+  --color-mint-500: #84cc16;
+  
+  --color-soft-black: #050705;
+  --color-dim: #6b7280;
+  --color-nature-dark: #0f170f;
+}
+
+@layer base {
+  body {
+    @apply bg-soft-black text-white selection:bg-mint-400/30 font-sans tracking-tight antialiased;
+  }
+}
+
+.glass-card {
+  @apply bg-white/[0.02] border border-white/[0.04] backdrop-blur-md;
+}
+
+.mint-glow {
+  box-shadow: 0 0 40px rgba(163, 230, 53, 0.05);
+}
+
+.section-padding {
+  @apply py-32 md:py-48;
+}
+
+.organic-blur {
+  background: radial-gradient(circle at center, var(--color-nature-dark) 0%, transparent 70%);
+}
+
+.immersive-grid {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
