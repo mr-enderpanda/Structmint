@@ -11,9 +11,8 @@ export const Navbar = () => (
     <div className="hidden lg:flex gap-10 text-[11px] font-bold uppercase tracking-[2px] text-white/40">
       <a href="#philosophy" className="hover:text-mint-400 transition-colors">Why Structure?</a>
       <a href="#systems" className="hover:text-mint-400 transition-colors">Design Systems</a>
-      <a href="#work" className="hover:text-mint-400 transition-colors">Case Studies</a>
       <a href="#process" className="hover:text-mint-400 transition-colors">How it works</a>
-      <a href="#pricing" className="hover:text-mint-400 transition-colors">Pricing</a>
+      <a href="/pricing.html" className="hover:text-mint-400 transition-colors">Pricing</a>
     </div>
     <div className="flex items-center gap-6">
       <a href="https://wa.me/919667115543" className="hidden sm:block px-6 py-2.5 bg-mint-400 text-soft-black font-bold uppercase tracking-[1px] text-[11px] rounded-[4px] hover:shadow-[0_0_20px_rgba(0,255,157,0.3)] transition-all duration-300">

@@ -8,9 +8,7 @@ import {
   Hero, 
   Philosophy, 
   DesignSystems, 
-  SelectedWork, 
   Services, 
-  Pricing,
   FAQ,
   Process, 
   Contact, 
@@ -27,9 +25,7 @@ export default function App() {
         <Hero />
         <Philosophy />
         <DesignSystems />
-        <SelectedWork />
         <Services />
-        <Pricing />
         <FAQ />
         <Process />
         <Contact />
