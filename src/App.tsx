@@ -8,12 +8,12 @@ import {
   Hero, 
   Philosophy, 
   DesignSystems, 
-  Services, 
   FAQ,
   Process, 
   Contact, 
   Footer 
 } from "./components/Sections";
+import { PricingSection } from "./components/Pricing";
 
 export default function App() {
   return (
@@ -25,7 +25,7 @@ export default function App() {
         <Hero />
         <Philosophy />
         <DesignSystems />
-        <Services />
+        <PricingSection />
         <FAQ />
         <Process />
         <Contact />

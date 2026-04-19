@@ -449,7 +449,7 @@ export const Footer = () => (
           <ul className="space-y-6 text-[11px] font-bold uppercase tracking-widest text-dim">
             <li><a href="#philosophy" className="hover:text-mint-400 transition-colors">Strategy</a></li>
             <li><a href="#systems" className="hover:text-mint-400 transition-colors">Systems</a></li>
-            <li><a href="/pricing.html" className="hover:text-mint-400 transition-colors">Pricing</a></li>
+            <li><a href="#pricing" className="hover:text-mint-400 transition-colors">Pricing</a></li>
             <li><a href="#process" className="hover:text-mint-400 transition-colors">Process</a></li>
           </ul>
         </div>
